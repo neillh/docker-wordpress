@@ -37,7 +37,7 @@ services:
     restart: always
     links:
       - 'db:db'
-    volumes: ['./src:/var/www/html']
+    volumes: ['./src/wordpress:/var/www/html']
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_NAME: wordless
