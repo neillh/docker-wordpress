@@ -16,3 +16,8 @@ http://localhost:3001/
 - WORDPRESS_DB_NAME: wordless
 - WORDPRESS_DB_USER: wordpress
 - WORDPRESS_DB_PASSWORD: wordpress
+
+# Webpack
+- cd src/app
+- npm i
+- npm start
